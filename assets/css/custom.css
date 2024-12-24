@@ -1,0 +1,31 @@
+.avatar-sm {
+    height: 2.25rem;
+    width: 2.25rem;
+}
+
+aside.elevation-4{
+    background-color: #393838!important;
+}
+
+nav.main-header{
+    background-color: #393838!important;
+}
+
+[class*=sidebar-dark] .user-panel{
+    border-bottom: unset;
+}
+
+/* a.nav-link.active{
+    background-color: unset !important;
+    border-radius: unset !important;
+    box-shadow: unset !important;
+    color: blue !important;
+} */
+
+/* [class*=sidebar-dark-] .nav-sidebar>.nav-item.menu-open>.nav-link, [class*=sidebar-dark-] .nav-sidebar>.nav-item:hover>.nav-link, [class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-link:focus{
+    color: #007bff !important;
+} */
+
+li a span.pro-user-name{
+    color: white;
+}

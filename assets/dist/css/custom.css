@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif!important; /* Body text */
+    font-size: 16px; /* Adjust as needed */
+    line-height: 1.5; /* Improve readability */
+}
+/* h1, h2, h3 {
+    font-family: 'Merriweather', serif!important;
+} */
+ p{
+    font-family: 'Raleway', sans-serif;
+    /* font-size: 16px; */
+    line-height: 1.6;
+    /* color: #333; */
+ }
+
+li.notification-list{
+    height: 50px;
+}
+li.notification-list a{
+    height: unset;
+}
+li.notification-list img{
+    height: 30px;
+    width: auto;
+}
+body:not(.layout-fixed) .main-sidebar{
+    position: fixed!important;
+}
+
+.mt-btn-div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.mt-btn-div a.mt-btn{
+    background-color: grey;
+    border: unset;
+    border-radius: 5px;
+}
+
+ul.list-inline{
+    margin-bottom: unset;
+}
+
+.card{
+    border: unset!important;
+}
+.contact-img{
+    width: 70px;
+    height: auto;
+}
